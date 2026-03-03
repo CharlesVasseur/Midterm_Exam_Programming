@@ -11,4 +11,4 @@ def longest(filename):
     file.close() # closes the file
     return longest
 
-print("The longest word in filename is", longest("filename")) # returns the result
+print("The longest word in filename is", longest("filename.txt")) # returns the result
